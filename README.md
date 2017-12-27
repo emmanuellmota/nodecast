@@ -3,17 +3,12 @@ nodecast
 
 ChromeCast Emulation with Node.js
 
-* Make sure to install all dependencies using `npm install`
-* Start the app (usage: `node server.js --name Custom_Chromecast_Name`)
-* Open up a browser (tested with Chrome 29 and Firefox) and point it to http://localhost:8008
-* nodecast should show up in Chrome Cast enabled applications (Google Music, YouTube)
-* You should allow popups for http://localhost:8008 to see the video/music screen
+The compiled binaries for each Operating System is located in the corresponding folders. Alternatively, feel free to make changes and compile it yourself. Code contributions are welcomed.
 
-Tested with the following services: YouTube (Desktop, Android), Google Music (Android)
 
 #### Notes
-Inspired by [leapcast](https://github.com/dz0ny/leapcast) by [dz0ny](ttps://github.com/dz0ny)
+This is a continuation of the previous [nodecast](https://github.com/mauimauer/nodecast) by [mauimauer](https://github.com/mauimauer). I just ported it to electron to make it easier for non-developers to use: 
 
 
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/mauimauer/nodecast/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
 
